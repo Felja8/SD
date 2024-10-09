@@ -46,3 +46,8 @@ Connect frontend to backend services. Perform unit and integration tests to ensu
 
 **5. Final Touches and Deployment**  
 Complete final testing and debugging. Deploy the app to production, ensuring scalability and readiness for user interaction.
+
+---
+
+# Trello 
+https://trello.com/invite/b/670557ba04f4920e2e959d36/ATTI5bdfe34b25fc3d5698d8f7d5668fd0ed48953865/sd1
