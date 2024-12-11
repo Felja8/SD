@@ -15,11 +15,7 @@ Our app is designed for groups of friends traveling together. It helps manage an
 ## Key Features
 Splitting Bills Between Users:
 
-Users can create requests for new expenses, specifying a list of participants and individual amounts for each. The app processes these requests and stores the information in a database.
-
-Tracking Individual Expenses:
-
-Each expense can be split unevenly, allowing users to specify how much each participant should contribute. Supports complex bill-splitting scenarios, including partial payments.
+Users can create requests for new expenses, specifying a list of participants. The app processes these requests and stores the information in a database.
 
 Expense and Debt History:
 
@@ -37,10 +33,6 @@ Basic Authorization and Security:
 
 Uses Spring Security for basic user authorization. Secures API access and data, limiting access to authorized users only.
 
-RESTful API:
-
-The app provides a REST API for interaction with client applications. Endpoints include adding expenses, retrieving debt information, and managing users.
-
 Integration with PostgreSQL Database:
 
 Uses JPA for database interaction. Stores data on users, expenses, and debts in PostgreSQL.
@@ -53,21 +45,9 @@ Data Handling and Validation:
 
 Validates incoming data in controllers and services. Handles errors and exceptions to provide informative responses to the client.
 
-API Documentation:
-
-Supports integration with Swagger or Spring REST Docs for automatic API documentation generation.
-
 Support for Group Activities:
 
 Accounts for expenses related to group visits or events. Convenient user group management for bill splitting.
-
-Personal Statistics and Reports:
-
-Users can access statistics on their expenses and debts. Generates reports for specific time periods.
-
-Ease of Use:
-
-Intuitive API for integration with client applications (web, mobile). Detailed documentation and usage examples.
 
 Data Security:
 
@@ -82,11 +62,11 @@ The app is designed for convenient and transparent management of shared expenses
 ---
 
 ##  Potential Tech Stack
-- **Frontend**: React Native
-- **Backend**: Node.js, Express.js
+- **Frontend**: Kotlin
+- **Backend**: Java Spring Boot
 - **Database**: PostgreSQL
-- **Authentication**: Firebase
-- **APIs**: REST or GraphQL
+- **Authentication**: PostgreSQL
+
 
 ---
 
